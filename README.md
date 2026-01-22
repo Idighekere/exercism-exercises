@@ -6,22 +6,21 @@ Solving every exercise in this track to build a flawless foundation in software 
 
 ### 📊 Progress Tracker
 
-| Exercise                  | Core Concept(s) Learnt                       | Status  |
-| :------------------------ | :------------------------------------------- | :------ | ------- | ------- |
-| `lucian-lasagna`          | Function signatures, constants, & basic math | ✅ Done |
-| `annalyns-infiltration`   | Boolean logic & operator precedence (`&&`, ` |         | `, `!`) | ✅ Done |
-| `freelancer-rates``       | String manipulation & index-based access     | ✅ Done |
-| `poetry-club-door-policy` | String manipulation & index-based access     | ✅ Done |
-| `elyses-enchantment` | Array manipulation     |  Not Started |
-
+| Exercise                  | Core Concept(s) Learnt                                      | Status      |
+| ------------------------- | ----------------------------------------------------------- | ----------- |
+| `lucian-lasagna`          | Function signatures, constants, & basic math                | ✅ Done     |
+| `annalyns-infiltration`   | Boolean logic & operator precedence (`&&`, logical OR, `!`) | ✅ Done     |
+| `freelancer-rates`        | String manipulation & index-based access                    | ✅ Done     |
+| `poetry-club-door-policy` | String manipulation & index-based access                    | ✅ Done     |
+| `elyses-enchantment`      | Array manipulation                                          | Not Started |
 
 ---
 
 ### 📓 Concept Log
 
-## **Annalyn's Infiltration**
+## Annalyn's Infiltration
 
-## **Lucian's Lasagna**
+## Lucian's Lasagna
 
 - I did this task on the site
 
