@@ -12,7 +12,7 @@ Solving every exercise in this track to build a flawless foundation in software 
 | `annalyns-infiltration`   | Boolean logic & operator precedence (`&&`, logical OR, `!`) | ✅ Done     |
 | `freelancer-rates`        | String manipulation & index-based access                    | ✅ Done     |
 | `poetry-club-door-policy` | String manipulation & index-based access                    | ✅ Done     |
-| `elyses-enchantment`      | Array manipulation                                          | Not Started |
+| `elyses-enchantment`      | Array manipulation                                          |  ✅ Done |
 
 ---
 
@@ -32,6 +32,8 @@ Solving every exercise in this track to build a flawless foundation in software 
 
 - In this exercise, I had issue with the `backDoorResponse`, the task was to get the last letter of every line neglecting the whitespaces. But I changed the string methods and accessed the last character by doint `.chartAt(line.length-1)`, which is the last character of the original line with whitespaces and not when trimmed. So the solution after battling was to store the trimmed line in a seperate variable and used `.charAt(trimmedLine.length-1)` or `.at(-1)`
 
+## Elyse's Enchantments
+- In this exercise, I didn't pay attention to the return valuses of the `splice`, `pop`, `push` etc methods, until i tested the code and found out that the methods returns the value and not the array
 ---
 
 ### 💻 Environment
