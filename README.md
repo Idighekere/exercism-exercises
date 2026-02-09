@@ -13,7 +13,8 @@ Solving every exercise in this track to build a flawless foundation in software 
 | `freelancer-rates`        | String manipulation & index-based access                    | ✅ Done |
 | `poetry-club-door-policy` | String manipulation & index-based access                    | ✅ Done |
 | `elyses-enchantment`      | Array manipulation                                          | ✅ Done |
-| `vehicle-purchase`      | Comparisons and Conditionals                                          | ✅ Done |
+| `vehicle-purchase`        | Comparisons and Conditionals                                | ✅ Done |
+| `mixed-juices`        | Conditionals and Loop (switch, while)                                | ✅ Done |
 
 ---
 
