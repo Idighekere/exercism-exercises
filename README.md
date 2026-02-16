@@ -14,7 +14,8 @@ Solving every exercise in this track to build a flawless foundation in software 
 | `poetry-club-door-policy` | String manipulation & index-based access                    | ✅ Done |
 | `elyses-enchantment`      | Array manipulation                                          | ✅ Done |
 | `vehicle-purchase`        | Comparisons and Conditionals                                | ✅ Done |
-| `mixed-juices`        | Conditionals and Loop (switch, while)                                | ✅ Done |
+| `mixed-juices`            | Conditionals and Loop (switch, while)                       | ✅ Done |
+| `bird-watcher`            | For Loop                                     | ✅ Done |
 
 ---
 
@@ -38,6 +39,9 @@ Solving every exercise in this track to build a flawless foundation in software 
 
 - In this exercise, I didn't pay attention to the return valuses of the `splice`, `pop`, `push` etc methods, until i tested the code and found out that the methods returns the value and not the array
 
+## Bird Watcher
+
+- when working on this exercise, i made a mistake of using, `i+2` instead of `i=i+2` in the for loop iterator , this caused an infinite looping, i was on this for so many days till i finally decided to ask a LLM
 ---
 
 ### 💻 Environment
