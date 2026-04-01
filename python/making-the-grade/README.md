@@ -11,7 +11,6 @@ Python has two looping constructs.
 The keywords `break`, `continue`, and `else` help customize loop behavior.
 `range()` and `enumerate()` help with loop counting and indexing.
 
-
 ## While
 
 [`while`][while statement] loops will continue to execute as long as the `loop expression` or "test" evaluates to `True` in a [`boolean context`][truth value testing], terminating when it evaluates to `False`:
@@ -34,7 +33,6 @@ The keywords `break`, `continue`, and `else` help customize loop behavior.
 'green_eggs'
 ```
 
-
 ## For
 
 The basic [`for`][for statement] `loop` in Python is better described as a _`for each`_ which cycles through the values of any [iterable object][iterable], terminating when there are no values returned from calling [`next()`][next built-in]:
@@ -54,7 +52,6 @@ The basic [`for`][for statement] `loop` in Python is better described as a _`for
 'Barrel starts with a B.'
 'Bongo starts with a B.'
 ```
-
 
 ## Sequence Object range()
 
@@ -96,7 +93,6 @@ If no `start` number is provided, the sequence will begin with 0.
 '13 is odd.'
 ```
 
-
 ## Values and Indexes with enumerate()
 
 If both values and their indexes are needed, the built-in [`enumerate(<iterable>)`][enumerate] will return (`index`, `value`) pairs:
@@ -136,7 +132,6 @@ If both values and their indexes are needed, the built-in [`enumerate(<iterable>
 'Spinach is in category: vegetable.'
 ```
 
-
 ## Altering Loop Behavior
 
 The [`continue`][continue statement] keyword can be used to skip forward to the next iteration cycle:
@@ -155,7 +150,6 @@ for index, word in enumerate(word_list):
 'Bongo (at index 3) starts with a b.'
 'Bear (at index 6) starts with a b.'
 ```
-
 
 The [`break`][break statement] (_like in many C-related languages_) keyword can be used to stop the iteration and "break out" of the innermost enclosing `loop`:
 
@@ -245,7 +239,6 @@ Since students rarely score 100 on an exam, the "letter grade" lower thresholds 
 
 Create the function `letter_grades(highest)` that takes the "highest" score on the exam as an argument, and returns a `list` of lower score thresholds for each "American style" grade interval: `["D", "C", "B", "A"]`.
 
-
 ```python
 """Where the highest score is 100, and failing is <= 40.
        "F" <= 40
@@ -319,3 +312,4 @@ If no 100 scores are found in `student_info`, an empty list `[]` should be retur
 ### Contributed to by
 
 - @pranasziaukas
+

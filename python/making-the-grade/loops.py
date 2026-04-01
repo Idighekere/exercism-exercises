@@ -7,8 +7,9 @@ def round_scores(student_scores):
     :param student_scores: list - float or int of student exam scores.
     :return: list - student scores *rounded* to nearest integer value.
     """
-
-    pass
+    if len(student_scores) == 0:
+        return []
+    return [round(score) for score in student_scores]
 
 
 def count_failed_students(student_scores):
@@ -17,8 +18,12 @@ def count_failed_students(student_scores):
     :param student_scores: list - containing int student scores.
     :return: int - count of student scores at or below 40.
     """
+    failure = []
+    for score in student_scores:
+        if score <= 40:
+            failure.append(score)
 
-    pass
+    return len(failure)
 
 
 def above_threshold(student_scores, threshold):
@@ -28,8 +33,12 @@ def above_threshold(student_scores, threshold):
     :param threshold: int - threshold to cross to be the "best" score.
     :return: list - of integer scores that are at or above the "best" threshold.
     """
+    best = []
+    for score in student_scores:
+        if score >= threshold:
+            best.append(score)
 
-    pass
+    return best
 
 
 def letter_grades(highest):
@@ -46,7 +55,13 @@ def letter_grades(highest):
             86 <= "A" <= 100
     """
 
-    pass
+    interval = (highest-40)//4
+    grades=[41]
+
+    for _ in range(3):
+        grades.append(grades[-1]+interval)
+
+    return grades
 
 
 def student_ranking(student_scores, student_names):
@@ -57,7 +72,11 @@ def student_ranking(student_scores, student_names):
     :return: list - of strings in format ["<rank>. <student name>: <score>"].
     """
 
-    pass
+    ranking = []
+    for i in range(0, len(student_scores)):
+        ranking.append(f"{i+1}. {student_names[i]}: {student_scores[i]}")
+
+    return ranking
 
 
 def perfect_score(student_info):
@@ -67,4 +86,10 @@ def perfect_score(student_info):
     :return: list - first `[<student name>, 100]` or `[]` if no student score of 100 is found.
     """
 
-    pass
+    if len(student_info) == 0:
+        return []
+
+    for info in student_info:
+        if info[1] == 100:
+            return info
+    return []
